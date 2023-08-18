@@ -10,7 +10,7 @@ Lists the user's public repositories with their names and descriptions.
 Installation
 
 1-Clone this repository using:
-git clone https://github.com/your-username/github-user-info-app.git
+git clone git@github.com:AmroAlmak/GithubUser.git
 2-Navigate to the project directory:
 cd github-user-info-app
 3-Install the required dependencies:
