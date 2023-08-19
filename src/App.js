@@ -41,6 +41,7 @@ function App() {
         setError("user not found");
       } else {
         const data = await response.json();
+        console.log(data);
         setRepositories(data);
       }
     } catch (error) {
@@ -53,8 +54,6 @@ function App() {
     fetchRepositories();
   }, [userName]);
 
-  console.log(githubUser);
-  console.log(repositories);
 
   // Handling input
   const handleInput = (e) => {
